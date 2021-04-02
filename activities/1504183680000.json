@@ -1,0 +1,166 @@
+{
+    "id": "691b398c-c76c-4d44-a86b-1afb6f7f6f3c",
+    "type": "run",
+    "app_id": "com.nike.sport.running.ios",
+    "start_epoch_ms": 1504179660000,
+    "end_epoch_ms": 1504183680000,
+    "last_modified": 1504438998296,
+    "active_duration_ms": 4020000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "distance",
+            "summary": "total",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 10.66
+        },
+        {
+            "metric": "speed",
+            "summary": "mean",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 9.546268656716418
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 41.541519402985074
+        },
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 4
+        },
+        {
+            "metric": "pace",
+            "summary": "mean",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 6.285178236397749
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 684.0130813341134
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 2783.2817999999997
+        }
+    ],
+    "sources": [
+        "com.nike.pacecalculator.v1",
+        "com.nike.running.ios.manualentry"
+    ],
+    "tags": {
+        "com_nike_createdatutc": "1504438936.82711",
+        "com_nike_name": "\u661f\u671f\u56db \u665a\u95f4\u8dd1",
+        "com_nike_running_runtype": "manual",
+        "location": "OUTDOORS"
+    },
+    "change_tokens": [
+        "387d557471b1292d1fa0e03c709251a989b3ef6860c61e69cc55c5f19aa09ffa:1504438998296",
+        "c19ddec9a76500ae0b309ca4784e6d38b38cca2f4ce045e26097151c5fe08f9f:1504438974954",
+        "968b116e9849f65c954bb05032d1dc382a76216639b5ce85ed05b701f0857f54:1504438937138"
+    ],
+    "metric_types": [
+        "distance",
+        "rpe",
+        "pace",
+        "calories",
+        "nikefuel",
+        "speed"
+    ],
+    "metrics": [
+        {
+            "type": "distance",
+            "unit": "KM",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 10.66
+                }
+            ]
+        },
+        {
+            "type": "speed",
+            "unit": "KMH",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 9.546268656716418
+                }
+            ]
+        },
+        {
+            "type": "pace",
+            "unit": "MKM",
+            "source": "com.nike.pacecalculator.v1",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 6.285178236397749
+                }
+            ]
+        },
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 2783.2817999999997
+                }
+            ]
+        },
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 4
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1504179660000,
+                    "end_epoch_ms": 1504183680000,
+                    "value": 684.0130813341134
+                }
+            ]
+        }
+    ],
+    "moments": []
+}

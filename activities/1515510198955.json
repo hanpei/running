@@ -1,0 +1,92 @@
+{
+    "id": "4e366b6c-5128-4c14-8888-36955f87a070",
+    "type": "training",
+    "app_id": "com.nike.ntc.brand.ios",
+    "start_epoch_ms": 1515510183743,
+    "end_epoch_ms": 1515510198955,
+    "last_modified": 1515510199146,
+    "active_duration_ms": 15000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 45
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 180
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 10
+        }
+    ],
+    "sources": [
+        "nike.ntc.ios"
+    ],
+    "tags": {
+        "com_nike_ntc_workout_completed": "1",
+        "com_nike_ntc_workout_id": "5448344e-41ca-3672-afb7-16409c66db6e"
+    },
+    "change_tokens": [
+        "804955aa6f5dbd569b12b05213ac4aa95bc7bc0c3592769e1b89eb50e55aa712:1515510199146"
+    ],
+    "metric_types": [
+        "calories",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1515510183743,
+                    "end_epoch_ms": 1515510198955,
+                    "value": 45
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1515510183743,
+                    "end_epoch_ms": 1515510198955,
+                    "value": 10
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "drill_start",
+            "value": "46392c09-7d55-3d47-9e89-7de3763216de",
+            "timestamp": 1515510183745,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "46392c09-7d55-3d47-9e89-7de3763216de",
+            "timestamp": 1515510198955,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        }
+    ]
+}

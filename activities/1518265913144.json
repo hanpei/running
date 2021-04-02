@@ -1,0 +1,316 @@
+{
+    "id": "8c3619a6-6d25-4ca7-9a89-ffbc01031561",
+    "type": "training",
+    "app_id": "com.nike.ntc.brand.ios",
+    "start_epoch_ms": 1518265216399,
+    "end_epoch_ms": 1518265913144,
+    "last_modified": 1518266012908,
+    "active_duration_ms": 696000,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "nikefuel",
+            "summary": "total",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 190
+        },
+        {
+            "metric": "nikefuel",
+            "summary": "mean",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 16.379310344827587
+        },
+        {
+            "metric": "calories",
+            "summary": "total",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 40
+        },
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "nike.ntc.ios",
+            "app_id": "com.nike.brand.ios.ntc",
+            "value": 6
+        }
+    ],
+    "sources": [
+        "nike.ntc.ios"
+    ],
+    "tags": {
+        "com_nike_ntc_benchmark_duration": "507.180451701",
+        "com_nike_ntc_benchmark_gender": "m",
+        "com_nike_ntc_benchmark_max_age": "39",
+        "com_nike_ntc_benchmark_min_age": "30",
+        "com_nike_ntc_benchmark_percentile": "0",
+        "com_nike_ntc_location": "home",
+        "com_nike_ntc_workout_completed": "1",
+        "com_nike_ntc_workout_id": "8d6621e6-b4cd-365e-b93a-004f41923b99"
+    },
+    "change_tokens": [
+        "695cb5d116911aa32e73db5e7d96a2b903bdef71c353945a40425493933aab64:1518266012908",
+        "bea99208c9348b37cdb8781516af50360236095b496202e642cfd2f9184943fb:1518265913729"
+    ],
+    "metric_types": [
+        "rpe",
+        "calories",
+        "nikefuel"
+    ],
+    "metrics": [
+        {
+            "type": "nikefuel",
+            "unit": "FUEL",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1518265216399,
+                    "end_epoch_ms": 1518265913144,
+                    "value": 190
+                }
+            ]
+        },
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1518265216399,
+                    "end_epoch_ms": 1518265913144,
+                    "value": 6
+                }
+            ]
+        },
+        {
+            "type": "calories",
+            "unit": "KCAL",
+            "source": "nike.ntc.ios",
+            "appId": "com.nike.brand.ios.ntc",
+            "values": [
+                {
+                    "start_epoch_ms": 1518265216399,
+                    "end_epoch_ms": 1518265913144,
+                    "value": 40
+                }
+            ]
+        }
+    ],
+    "moments": [
+        {
+            "key": "drill_start",
+            "value": "3227611b-c74c-3795-9bd8-6eeac7b9d195",
+            "timestamp": 1518265216405,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "53988441-9ea2-3804-811b-cc8e119d22bd",
+            "timestamp": 1518265238316,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "6f4f9fdb-8a83-3680-b184-56ec6954c828",
+            "timestamp": 1518265330152,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "5c3bb61b-3b4b-30bc-a98f-ce6d76fabb4f",
+            "timestamp": 1518265386231,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "14b08f41-a46f-375f-b4e5-404ed1027f84",
+            "timestamp": 1518265437731,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "1b69a766-982c-37d8-a3b3-a461d3e84bba",
+            "timestamp": 1518265474541,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "179db347-4a71-33e8-ade3-4ee00dc14005",
+            "timestamp": 1518265505266,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "642ed6d2-0745-3584-8ad3-7d131cdc2893",
+            "timestamp": 1518265601869,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "6039c3fc-864f-3675-9e1e-5ae91ba56fef",
+            "timestamp": 1518265633037,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "08a92330-2bc9-37b6-8b94-851e32027dc5",
+            "timestamp": 1518265686198,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "fa4bb069-99e4-36d2-8413-7bf59439fa67",
+            "timestamp": 1518265705149,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "e5a7e1a2-ec46-3f46-b12a-8fd132cc30dc",
+            "timestamp": 1518265725376,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "a465db03-1111-33b4-89d9-6d2a15b9b62a",
+            "timestamp": 1518265815529,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "d7768815-6cf8-3872-9de4-bf507c64e6f8",
+            "timestamp": 1518265843485,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_start",
+            "value": "dd9cb3d8-e21c-3767-9c62-6a87f6aac5ef",
+            "timestamp": 1518265893601,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "3227611b-c74c-3795-9bd8-6eeac7b9d195",
+            "timestamp": 1518265238316,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "53988441-9ea2-3804-811b-cc8e119d22bd",
+            "timestamp": 1518265330152,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "6f4f9fdb-8a83-3680-b184-56ec6954c828",
+            "timestamp": 1518265386230,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "5c3bb61b-3b4b-30bc-a98f-ce6d76fabb4f",
+            "timestamp": 1518265437731,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "14b08f41-a46f-375f-b4e5-404ed1027f84",
+            "timestamp": 1518265474541,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "1b69a766-982c-37d8-a3b3-a461d3e84bba",
+            "timestamp": 1518265505266,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "179db347-4a71-33e8-ade3-4ee00dc14005",
+            "timestamp": 1518265601869,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "642ed6d2-0745-3584-8ad3-7d131cdc2893",
+            "timestamp": 1518265633037,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "6039c3fc-864f-3675-9e1e-5ae91ba56fef",
+            "timestamp": 1518265686198,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "08a92330-2bc9-37b6-8b94-851e32027dc5",
+            "timestamp": 1518265705149,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "fa4bb069-99e4-36d2-8413-7bf59439fa67",
+            "timestamp": 1518265725376,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "e5a7e1a2-ec46-3f46-b12a-8fd132cc30dc",
+            "timestamp": 1518265815529,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "a465db03-1111-33b4-89d9-6d2a15b9b62a",
+            "timestamp": 1518265843485,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "d7768815-6cf8-3872-9de4-bf507c64e6f8",
+            "timestamp": 1518265893601,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        },
+        {
+            "key": "drill_complete",
+            "value": "dd9cb3d8-e21c-3767-9c62-6a87f6aac5ef",
+            "timestamp": 1518265913144,
+            "app_id": "com.nike.brand.ios.ntc",
+            "source": "nike.ntc.ios"
+        }
+    ]
+}

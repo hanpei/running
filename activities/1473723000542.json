@@ -1,0 +1,47 @@
+{
+    "id": "7e49bc58-fdd5-4329-b3b9-347e95353603",
+    "type": "run",
+    "app_id": "com.nike.sport.running.ios",
+    "start_epoch_ms": 1473721839679,
+    "end_epoch_ms": 1473723000542,
+    "last_modified": 1474086463599,
+    "active_duration_ms": 1160862,
+    "session": false,
+    "delete_indicator": false,
+    "summaries": [
+        {
+            "metric": "rpe",
+            "summary": "max",
+            "source": "com.nike.running.ios.manualentry",
+            "app_id": "com.nike.sport.running.ios",
+            "value": 5
+        }
+    ],
+    "sources": [
+        "com.nike.running.ios.manualentry"
+    ],
+    "tags": {},
+    "change_tokens": [
+        "458daacedbab0905cbfcea8486a2996718ce62bc99e97e6b7685aadc0217baa7:1474086463599",
+        "06dd452f8017bfb2d358902950a246ba49c7825b9475774be44e5a7deae6a400:1473729418102"
+    ],
+    "metric_types": [
+        "rpe"
+    ],
+    "metrics": [
+        {
+            "type": "rpe",
+            "unit": "RATING",
+            "source": "com.nike.running.ios.manualentry",
+            "appId": "com.nike.sport.running.ios",
+            "values": [
+                {
+                    "start_epoch_ms": 1473721839679,
+                    "end_epoch_ms": 1473723000542,
+                    "value": 5
+                }
+            ]
+        }
+    ],
+    "moments": []
+}
