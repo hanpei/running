@@ -48,7 +48,7 @@ export {
 
 export const AVATAR = 'https://avatars.githubusercontent.com/u/4035340?v=4'; // Temp avatar
 // 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTtc69JxHNcmN1ETpMUX4dozAgAN6iPjWalQ&usqp=CAU'; // Temp avatar
-export const NAVS = [{ text: 'About', link: 'https://github.com/hanpei' }];
+export const NAVS = [];
 
 const nike = 'rgb(224,237,94)';
 export const MAIN_COLOR = nike;
