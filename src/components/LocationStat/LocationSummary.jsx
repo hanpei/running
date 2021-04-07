@@ -10,7 +10,7 @@ const LocationSummary = () => {
       <section>
         {years && <Stat value={`${years.length}`} description=" 年里我跑过" />}
         {countries && <Stat value={countries.length} description=" 个国家" />}
-        {provinces && <Stat value={provinces.length} description=" 个省份" />}
+        {/* {provinces && <Stat value={provinces.length > 0} description=" 个省份" />} */}
         {cities && (
           <Stat value={Object.keys(cities).length} description=" 个城市" />
         )}

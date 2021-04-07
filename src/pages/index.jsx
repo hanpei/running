@@ -158,10 +158,10 @@ export default () => {
             stroke-dasharray: 0 ${length};\
           }\
           to {\
-            stroke-dasharray: ${length} ${length-1000};\
+            stroke-dasharray: ${length} ${length - 1000};\
           }\
         }`;
-        polyline.appendChild(keyFrames)
+        polyline.appendChild(keyFrames);
       }
       const run = runs
         .filter((r) => r.start_date_local.slice(0, 10) === runName)
@@ -181,16 +181,13 @@ export default () => {
         <div className="w-100">
           <h1 className="f1 fw9 i">Running</h1>
         </div>
-        {viewport.zoom <= 3 && IS_CHINESE ? (
-          <LocationStat
-            changeYear={changeYear}
-            changeCity={changeCity}
-            changeTitle={changeTitle}
-          />
-        ) : (
-          <YearsStat year={year} onClick={changeYear} />
-        )}
-        <div className="fl w-100 w-70-l">
+        <LocationStat
+          changeYear={changeYear}
+          changeCity={changeCity}
+          changeTitle={changeTitle}
+        />
+        <YearsStat year={year} onClick={changeYear} />
+        <div className="fl w-100 w-60-l">
           <RunMap
             runs={runs}
             year={year}
