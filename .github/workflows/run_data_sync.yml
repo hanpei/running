@@ -31,6 +31,8 @@ jobs:
     name: Sync
     runs-on: ubuntu-latest
     steps:
+      - name: work around permission issue
+        run: git config --global --add safe.directory /github/workspace
       - name: Checkout
         uses: actions/checkout@v2
       - name: Set up Python
