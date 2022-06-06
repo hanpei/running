@@ -1,0 +1,22 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ELIFECYCLE",
+    "errno": "ENOENT",
+    "syscall": "spawn",
+    "file": "sh",
+    "pkgid": "yihong.run@1.0.0",
+    "stage": "develop",
+    "script": "gatsby develop",
+    "pkgname": "yihong.run",
+    "err": {
+      "name": "pnpm",
+      "message": "yihong.run@1.0.0 develop: `gatsby develop`\nspawn ENOENT",
+      "code": "ELIFECYCLE",
+      "stack": "pnpm: yihong.run@1.0.0 develop: `gatsby develop`\nspawn ENOENT\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/7.1.5/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:93465:22)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1090:16)\n    at ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 warn pnpm:global": " Local package.json exists, but node_modules missing, did you mean to install?"
+}
