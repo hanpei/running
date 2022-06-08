@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
       >
         <html lang="en" />
       </Helmet>
-      <Header siteTitle={title} />
+      {/* <Header siteTitle={title} /> */}
       <div className="pa3 pa5-l">{children}</div>
     </>
   );

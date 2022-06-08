@@ -8,10 +8,9 @@ const Header = ({ siteTitle }) => {
     <>
       <nav
         className="db flex justify-between w-100 ph5-l"
-        style={{ marginTop: '3rem' }}
       >
         {AVATAR && (
-          <div className="dib w-25 v-mid">
+          <div className="dib w-100 v-mid">
             <Link to="/" className="link dim">
               <picture>
                 <img

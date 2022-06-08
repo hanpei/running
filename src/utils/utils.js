@@ -28,9 +28,9 @@ const formatPace = (d) => {
 
 // for scroll to the map
 const scrollToMap = () => {
-  const el = document.querySelector('.fl.w-100.w-60-l');
+  const el = document.querySelector('.fl.w-100.w-80-l');
   const rect = el.getBoundingClientRect();
-  window.scroll(rect.left + window.scrollX, rect.top + window.scrollY);
+  // window.scroll(rect.left + window.scrollX, rect.top + window.scrollY);
 };
 
 // what about oversea?

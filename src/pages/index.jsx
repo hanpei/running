@@ -34,7 +34,7 @@ export default () => {
 
   const [viewport, setViewport] = useState({
     width: '100%',
-    height: 400,
+    height: 600,
     ...bounds,
   });
   const changeByItem = (item, name, func) => {
@@ -50,7 +50,7 @@ export default () => {
     if (viewport.zoom > 3) {
       setViewport({
         width: '100%',
-        height: 400,
+        height: 600,
         ...bounds,
       });
     }
@@ -76,7 +76,7 @@ export default () => {
   useEffect(() => {
     setViewport({
       width: '100%',
-      height: 400,
+      height: 600,
       ...bounds,
     });
   }, [geoData]);
@@ -178,16 +178,16 @@ export default () => {
   return (
     <Layout>
       <div className="mb5">
-        <div className="w-100">
+        {/* <div className="w-100">
           <h1 className="f1 fw9 i">Running</h1>
-        </div>
+        </div> */}
         <LocationStat
           changeYear={changeYear}
           changeCity={changeCity}
           changeTitle={changeTitle}
         />
-        <YearsStat year={year} onClick={changeYear} />
-        <div className="fl w-100 w-60-l">
+        {/* <YearsStat year={year} onClick={changeYear} /> */}
+        <div className="fl w-100 w-80-l">
           <RunMap
             runs={runs}
             year={year}
